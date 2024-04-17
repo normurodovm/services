@@ -1,0 +1,98 @@
+.comment{
+    padding-top: 10px;
+    padding-bottom: 80px;
+    background-color: #F5F5F5;
+}
+.comment__top_title{
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 217%;
+    color: #0b132a;
+    margin-bottom: 26px;
+}
+.comment__top_text{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 187%;
+    color: #525252;
+    margin-bottom: 76px;
+}
+.comment__top_block{
+    text-align: center;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.comment__title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 187%;
+    color: #0b132a;
+    margin-bottom: 0px;
+    margin-left: 71px;
+}
+.comment__text{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 250%;
+    color: #4f5665;
+    margin-top: 0px;
+    margin-left: 71px;
+}
+.comment__grade{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 214%;
+    color: #0b132a;
+}
+.comment__item{
+    max-width: 400px;
+    padding: 30px;
+    background-color: #fff;
+    border: 2px solid #dc7000;
+    border-radius: 10px;
+}
+.comment__item2{
+    display: none;
+}
+.comment__block{
+    display: inline-block;
+    margin-right: 38px;
+    position: relative;
+    &::before{
+        content:"";
+        background-repeat: no-repeat;
+        display: inline-block;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-image:url(../img/comment-icon2.svg);
+        margin-right: 70px;
+        bottom: 20px;
+    }
+}
+.comment__grade{
+    position: relative;
+    &::before{
+        content: "";
+        position: absolute;
+        background-image: url(../img/comment-icon.svg);
+        width: 16px;
+        height: 16px;
+        display: inline-block;
+        background-repeat: no-repeat;
+        bottom: 3px;
+        margin-left: 30px;
+
+    }
+}
+.comment__list{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+@media screen and (min-width:992px) {
+    .comment__item2{
+        display: inline-block;
+    }
+}

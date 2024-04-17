@@ -1,0 +1,124 @@
+.header {
+    background-color: #E0790D;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .header__title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 155%;
+    color: #fff;
+  }
+  
+  .header__block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .header__top_block {
+    display: none;
+    text-align: end;
+    margin-right: 92px;
+  }
+  
+  .header__link3 {
+    font-weight: 400;
+    font-size: 10px;
+    color: #1a1a1a;
+    margin-right: 121px;
+  }
+  
+  .header__link2 {
+    font-weight: 400;
+    font-size: 10px;
+    color: #1a1a1a;
+  }
+  
+  .header__list {
+    display: none;
+    gap: 70px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .header__link {
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  .header__icon {
+    margin-left: 9px;
+  }
+  
+  .header__icon::before {
+    content: "";
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url(../img/header-icon.svg);
+    margin-right: 7px;
+  }
+  
+  .header__link3::before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url(../img/header-icon2.svg);
+    margin-right: 7px;
+  }
+  
+  .header__link2::before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url(../img/header-icon3.svg);
+    margin-right: 7px;
+  }
+  
+  .header__btn_link {
+    font-weight: 400;
+    font-size: 13px;
+    color: #dc7000;
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 10px 28px 11px 27px;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .header__top_block {
+      display: block;
+      margin-bottom: 9px;
+    }
+    .header {
+      background-color: #fff;
+    }
+    .header__content {
+      background-color: #E0790D;
+    }
+    .header__logo {
+      display: none;
+    }
+    .header__list {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+    .header__title {
+      font-size: 25px;
+    }
+  }

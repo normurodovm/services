@@ -1,0 +1,109 @@
+.subiscribe {
+    padding-bottom: 70px;
+  }
+  
+  .subiscribe__block {
+    max-width: 296px;
+    margin-bottom: 41px;
+  }
+  
+  .subiscribe__title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 187%;
+    color: #222;
+  }
+  
+  .subiscribe__text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 187%;
+    color: #525252;
+  }
+  
+  .subiscribe__bottom_block {
+    padding: 30px 32px 18px 21px;
+    background-color: #1b1b1b;
+    max-width: 319px;
+    border-radius: 15px;
+  }
+  
+  .subiscribe__sub_title {
+    font-weight: 500;
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 24px;
+  }
+  
+  .subiscribe__des {
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 43px;
+  }
+  
+  .subiscribe__email_input {
+    font-weight: 300;
+    font-size: 13px;
+    text-align: center;
+    color: #898989;
+    padding: 13px 4px 5px 15px;
+    border-radius: 8px;
+    background: #fff;
+    border: none;
+  }
+  
+  .subiscribe__btn {
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+    background-color: #dc7000;
+    border-radius: 8px;
+    border: none;
+  }
+  
+  .subiscribe__email_input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .subiscribe__input_content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .subiscribe__container {
+    max-width: 319px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .subiscribe__bottom_block {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      max-width: 1170px;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+    }
+    .subiscribe__input_content {
+      max-width: 385px;
+      height: 48px;
+    }
+    .subiscribe__container {
+      max-width: 1170px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
